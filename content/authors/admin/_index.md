@@ -40,60 +40,64 @@ profiles:
   #   url: https://www.instagram.com/
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  # - area: PostGraduate Computer Technology
+  #   institution: Southwest University
+  #   date_start: 2021-09-01
+  #   date_end: 2024-07-01
+  #   summary: |
+  #     Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+  #   button:
+  #     text: 'Read Thesis'
+  #     url: 'https://example.com'
+  - area: PostGraduate Computer Technology
+    institution: Southwest University
+    date_start: 2021-09-01
+    date_end: 2024-07-01
     summary: |
       GPA: 3.8/4.0
 
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      - Swarm Intelligence
+      - Computer Vision
+      - Internet of Things Engineering
+      - Engineering Mathematics
+  - area: Software Engineering
+    institution: Northeast Normal University
+    date_start: 2017-09-01
+    date_end: 2021-07-01
     summary: |
       GPA: 3.4/4.0
       
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Advanced Mathematics
+      - Linear Algebra
+      - Mathematical Modeling
+      - Integrated Development Engineering
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Information Technology Teacher
+    company_name: SHEN ZHEN MIDDLE SCHOOL LONGGANG SCHOOL
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2024-07-15
+    date_end: 'present'
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Information Technology Course Teaching
+      - Informatics Olympiad Competition Coaching
+      - Research Office Staff
+
+  - position: Computer Science Specialized Course Teacher
+    company_name: CQIES
+    company_url: ''
+    company_logo: ''
+    date_start: 2023-08-20
+    date_end: '2024-03-01'
+    summary: |2-
+      Responsibilities include:
+      - Vue Front-end Development Framework
+      - Software Testing Techniques
+      - Career Guidance
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -104,7 +108,7 @@ skills:
         description: ''
         percent: 80
         icon: devicon/python
-      - name: RStudio
+      - name: C++
         description: ''
         percent: 100
         icon: devicon/rstudio
@@ -131,42 +135,42 @@ skills:
 
 languages:
   - name: English
-    percent: 100
+    percent: 80
   - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+    percent: 100
+
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
+  - title: Second Prize in the Huawei Cup National Mathematical Modeling Competition
+    url: https://cpipc.acge.org.cn/cw/hp/4
+    date: '2022-11-25'
+    awarder: competition
     icon: coursera
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
+      During the process of participating in the Huawei Cup National Mathematical Modeling Competition, our team conducted an in-depth analysis of the problem background, constructed mathematical models based on real-world scenarios, and utilized programming tools such as Python and MATLAB for simulation and validation. Over the course of three days, we efficiently completed tasks including data collection, modeling, algorithm optimization, and paper writing through effective teamwork. Ultimately, we won the second prize with clear model logic, precise data analysis, and a high-quality presentation of our paper. This experience not only enhanced our teamwork and mathematical modeling skills but also cultivated our problem-solving abilities and innovative thinking.
+  - title: A Novel Multi-objective Evolutionary Algorithm Hybrid Simulated Annealing Concept for Recommendation Systems
+    url: https://link.springer.com/chapter/10.1007/978-981-97-0859-8_18
+    date: '2024-02-27'
+    awarder: conference paper
     icon: edx
     summary: |
       Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
+      - A recommendation model based on a multi-objective evolutionary algorithm was constructed.
+      - Multiple innovations were made in the algorithm's initialization, mutation, and selection strategies.
+      - The effectiveness of the algorithm was validated through experiments across multiple evaluation metrics.
+
+  - title: 'Second Prize in Shenzhen Cloud Application Development Competition'
+    url: http://www.szdj.edu.cn/
+    certificate_url: http://www.szdj.edu.cn/
+    date: '2024-11-10'
+    awarder: competition
     icon: datacamp
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      In the Shenzhen Cloud Application Development Competition, I participated in developing a Grade Analysis and Management System. The system utilized a cloud-based architecture, integrating features such as grade entry, dynamic analysis, and visualized reporting, with support for real-time access across devices. Through innovative design and an enhanced user experience, our project earned recognition from the judges during the presentation and ultimately won the second prize. This experience greatly improved my teamwork and cloud application development skills.
 ---
 
-I am currently Director of Cloud Infrastructure at GenCoin where I am leading teams on edge computing, deep sea data center architecture, and hivemind optimization.
+I am currently an Information Technology teacher at Shenzhen Middle School Longgang Campus, and I also serve as a coach for the Informatics Olympiad.
