@@ -34,8 +34,8 @@ profiles:
   #   url: https://twitter.com/GetResearchDev
   - icon: brands/github
     url: https://github.com/fishingNow
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
+  - icon: brands/weixin
+    url: 15736157191
   # - icon: brands/instagram
   #   url: https://www.instagram.com/
 
