@@ -79,7 +79,7 @@ work:
     company_url: ''
     company_logo: ''
     date_start: 2024-07-15
-    date_end: present
+    date_end: 2024-11-26
     summary: |
       Responsibilities include:
       - Information Technology Course Teaching
