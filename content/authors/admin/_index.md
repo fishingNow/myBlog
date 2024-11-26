@@ -91,7 +91,7 @@ work:
     company_url: ''
     company_logo: ''
     date_start: 2023-08-20
-    date_end: '2024-03-01'
+    date_end: 2024-03-01
     summary: |2-
       Responsibilities include:
       - Vue Front-end Development Framework
